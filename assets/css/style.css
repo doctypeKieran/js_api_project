@@ -1,0 +1,32 @@
+/* Google Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html,
+body,
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+body {
+    margin-top: 10px;
+}
+
+textarea {
+    height: 25vh;
+}
+
+.modal-body {
+    max-height: 60vh;
+    overflow-y: scroll;
+}
